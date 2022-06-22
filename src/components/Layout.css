@@ -1,0 +1,23 @@
+.Layout__footer,
+.Layout__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(250, 150, 0);
+    text-align: center;
+}
+
+.Layout__header {
+    justify-content: space-around;
+}
+
+.Layout__header a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Layout__header a:hover {
+    color: rgb(255, 0, 0);
+}
